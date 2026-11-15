@@ -270,7 +270,7 @@ decision_full_on = "yes" if (primary_pass and guardrail_pass) else "no"
 | Fail | Pass | `no` — do not recommend full rollout |
 | Fail | Fail | `no` — do not recommend full rollout |
 
-This is a decision rule for this case study, not a universal standard for experimentation. In particular, a non-significant guardrail result is not proof that booking time is unchanged or that a longer booking time has been ruled out. See [Assumptions and limitations](#12-assumptions-and-limitations).
+This is a decision rule for this case study, not a universal standard for experimentation. In particular, a non-significant guardrail result is not proof that booking time is unchanged or that a longer booking time has been ruled out.
 
 ## 9. User-level sensitivity analysis
 
